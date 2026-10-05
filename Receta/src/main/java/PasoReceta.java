@@ -5,8 +5,8 @@ import java.util.List;
 public class PasoReceta {
     private final String descripcion;
     private final Recipiente recipiente;
-    private final List<Ingrediente> ingredientes;   // ingredientes que se añaden en este paso
-    private final List<String> aRetirar;            // nombres de ingredientes que se retiran
+    private final List<Ingrediente> ingredientes;   
+    private final List<String> aRetirar;
     private final long duracionMs;
     private final EstadoRecipiente estadoFinal;
 

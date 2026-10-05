@@ -6,7 +6,6 @@ public class Main {
         Recipiente sarten = new Recipiente("Sartén grande");
         Recipiente plato = new Recipiente("Plato llano");
 
-        // Ingredientes
         Ingrediente agua = new Ingrediente("Agua", 2000, "ml");
         Ingrediente sal = new Ingrediente("Sal gruesa", 10, "g");
         Ingrediente espaguetis = new Ingrediente("Espaguetis", 400, "g");
@@ -19,7 +18,7 @@ public class Main {
         List<Ingrediente> ninguno = List.of();
         List<String> nadaQueRetirar = List.of();
 
-        // Receta con sus pasos (cada uno con duración distinta)
+
         Receta receta = new Receta("Espaguetis a la boloñesa");
 
         receta.agregarPaso(new PasoReceta("Poner agua a hervir con sal",
